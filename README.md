@@ -7,7 +7,7 @@
 
 
 ## Метрики машинного обучения
-- Receiver Operation Charachteristic - Area Under Curve - можем управлять FPR, хорошие показатели на разбалансированных данных
+- Receiver Operation Characteristic - Area Under Curve - можем управлять FPR, хорошие показатели на разбалансированных данных
 
 ## Особенности проекта
 Для анализа и выявления особенностей проекта используем шаблон [MISSION](https://medium.com/product-ai/mission-canvas-never-start-a-research-project-without-a-shared-mission-understanding-83653492b34)
