@@ -71,3 +71,7 @@
 
 ## Задачи
 - [Backlog](https://github.com/users/melnikk/projects/3/views/1)
+
+## Инфраструктура проекта
+- [Процесс создания](INFRASTRUCTURE.md)
+- [Точка доступа к бакету](https://storage.yandexcloud.net/melnikov-mlops)
