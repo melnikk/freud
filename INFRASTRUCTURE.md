@@ -275,3 +275,33 @@ security_group_ids:
 Выводим список файлов
 
 ![hdfs.png](hdfs.png)
+
+## Оценка ресурсов
+
+Сравнение стоимости ресурсов
+
+- SSD **дороже** HDD x4
+- SSD без репликации **дешевле** x1.5
+- Object Storage **дешевле** SSD x6
+- Object Storage **дешевле** HDD x2
+- RAM прерываемой ВМ **дешевле** x4
+- CPU прерываемой ВМ **дешевле** x4
+
+## Обновление списка задач
+
+См. [Backlog](https://github.com/users/melnikk/projects/3/views/1)
+
+## Удаление кластера
+
+```shell
+> yc dataproc cluster delete --id c9qdv7lhukhcldppd7ia
+
+id: c9qtvmohs9ga842du4mc
+description: Delete Data Proc cluster
+created_at: "2023-04-06T12:38:35.341297Z"
+created_by: ajet8v45shrtai705npm
+modified_at: "2023-04-06T12:38:35.341297Z"
+metadata:
+  '@type': type.googleapis.com/yandex.cloud.dataproc.v1.DeleteClusterMetadata
+  cluster_id: c9qdv7lhukhcldppd7ia
+```
